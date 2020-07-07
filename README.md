@@ -1,6 +1,6 @@
-# -planitar_part2
+# planitar_part2
 
-Created a one-page wiki management application. The application uses the web server, written in the first part, as a repository for articles.
+Part II created a one-page wiki management application. The application uses the web server, written in the first part, as a repository for articles.
 
 # API:
 ### Index page  "/" 
