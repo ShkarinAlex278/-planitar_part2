@@ -5,7 +5,9 @@ Created a one-page wiki management application. The application uses the web ser
 
 # API:
 ### Index page / 
+
 ●Displays the names of all stored articles 
+
 ●Every article name is a link to the article’s 
 viewing page 
 
