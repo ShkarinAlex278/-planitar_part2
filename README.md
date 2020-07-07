@@ -4,26 +4,18 @@ Part II
 Created a one-page wiki management application. The application uses the web server, written in the first part, as a repository for articles.
 
 # API:
-### Index page / 
+### Index page  "/" 
 
-●Displays the names of all stored articles 
+● Displays the names of all stored articles 
+● Every article name is a link to the article’s viewing page 
 
-●Every article name is a link to the article’s 
-viewing page 
+### Article viewing page  "/:name" 
+● Displays the article name as a header at the top of the page 
+● Displays a visible edit button at the top of the page leading to the article’s edit page 
+● Displays the article’s content rendered as HTML 
+● Use Edit button in the header to add it.` message instead of the article’s content if the article is not found 
 
-### Article viewing page  /:name 
-●Displays the article name as a header at the 
-top of the page 
-●Displays a visible edit button at the top of 
-the page leading to the article’s edit page 
-●Displays the article’s content rendered as 
-HTML 
-●Displays `No article with this exact name 
-found. Use Edit button in the header to add 
-it.` message instead of the article’s content 
-if the article is not found 
-
-### Article edit page /edit/:name 
+### Article edit page  "/edit/:name" 
 ●Displays article name as a header at the top 
 of the page 
 ●Has means to edit the article’s content as 
